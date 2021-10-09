@@ -87,7 +87,7 @@ pass_through_MIDI = True # Pass-through or not all MIDI events
 # print('Loading MIDI file...')
 mel_crd_f = []
 
-score = TMIDIX.midi2ms_score(open(source_MIDI_file, 'rb').read())
+score = TMIDIX.midi2score(open(source_MIDI_file, 'rb').read())
 
 all_events_matrix = []
 events_matrix = []
@@ -246,7 +246,7 @@ pass_through_MIDI = True # Pass-through or not all MIDI events
 # print('Loading MIDI file...')
 
 mel_crd_f = []
-score = TMIDIX.midi2ms_score(open(source_MIDI_file, 'rb').read())
+score = TMIDIX.midi2score(open(source_MIDI_file, 'rb').read())
 
 all_events_matrix = []
 events_matrix = []
