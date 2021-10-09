@@ -46,6 +46,17 @@ from GPT2RGA import *
 
 # # Algorithmic Drums Matching
 
+# ## Load Clean MIDI Pitches-Drums Database
+
+# In[ ]:
+
+
+notes, drums = TMIDIX.Tegridy_Any_Pickle_File_Reader('clean_midi_PDM')
+print('Done!')
+
+
+# ## Generate Drums from the Database
+
 # In[ ]:
 
 
