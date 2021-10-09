@@ -19,7 +19,7 @@ Loss val: 0.01247  Acc: 0.9957:  23%|██▎       | 922/3988 [00:31<01:43, 29
 
 ***
 
-### License/attribution
+### License/Attribution
 
 #### The Lakh MIDI Dataset is distributed with a CC-BY 4.0 license; if you use this data in any capacity, please reference this page and my thesis:
 
