@@ -179,7 +179,7 @@ else:
                                           output_file_name='./LUC-Algorithmic-Composition',
                                           output_signature = 'Project Los Angeles', 
                                           track_name = 'Lars Ulrich Challenge',
-                                          number_of_ticks_per_quarter=500,
+                                          number_of_ticks_per_quarter=score[0],
                                           list_of_MIDI_patches = [0, 24, 32, 40, 42, 46, 56, 71, 73, 0, 0, 0, 0, 0, 0, 0])
 
 
@@ -345,7 +345,7 @@ else:
                                           output_file_name='./LUC-Artificial-Intelligence-Composition',
                                           output_signature = 'Project Los Angeles',
                                           track_name = 'Lars Ulrich Challenge',
-                                          number_of_ticks_per_quarter=500,
+                                          number_of_ticks_per_quarter=score[0],
                                           list_of_MIDI_patches = [0, 24, 32, 40, 42, 46, 56, 71, 73, 0, 0, 0, 0, 0, 0, 0])
 
 
