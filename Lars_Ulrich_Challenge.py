@@ -99,7 +99,10 @@ while itrack < len(score):
         if event[0] == 'note' and event[3] != 9:
             events_matrix.append(event)
             
-        all_events_matrix.append(event)
+        if event[0] == 'note' and event[3] == 9:
+            pass
+        else:
+            all_events_matrix.append(event)
         
     itrack += 1
     
@@ -255,7 +258,10 @@ while itrack < len(score):
         if event[0] == 'note' and event[3] != 9: # reading all notes events except for the drums
             events_matrix.append(event)
             
-        all_events_matrix.append(event)
+        if event[0] == 'note' and event[3] == 9:
+            pass
+        else:
+            all_events_matrix.append(event)
         
     itrack += 1
     
@@ -295,10 +301,10 @@ for i in tqdm(range(len(src_pitches))):
     
     final_song.extend(mel_crd_f[i])
     if memory_tokens > 0:
-        number_of_tokens_to_generate = memory_tokens+32 #@param {type:"slider", min:8, max:1024, step:8}
+        number_of_tokens_to_generate = memory_tokens+32
         data = out[-memory_tokens:] + [388] + src_pitches[i] + [128]
     else:
-        number_of_tokens_to_generate = 32 #@param {type:"slider", min:8, max:1024, step:8}
+        number_of_tokens_to_generate = 32
         data = [388] + src_pitches[i] + [128]
         
     rand_seq = model.generate(torch.Tensor(data), target_seq_length=number_of_tokens_to_generate, stop_token=128)
