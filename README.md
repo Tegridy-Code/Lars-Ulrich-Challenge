@@ -6,6 +6,15 @@
 
 ***
 
+### Take LUC quickly with the official Jupyter/Colab Notebook
+
+[![Open In Colab][colab-badge]][colab-notebook]
+
+[colab-notebook]: <https://colab.research.google.com/github/Tegridy-Code/Lars-Ulrich-Challenge/blob/main/Lars_Ulrich_Challenge.ipynb>
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+
+***
+
 ### ❤️🥁 Performance Piano-Drums Output Sample (Algorithmic) 🥁❤️
 
 NOTE: Do not forget to unmute the player below to hear the music
