@@ -6,6 +6,14 @@
 
 ***
 
+### ❤️🥁 Performance Piano-Drums Output Sample (Algorithmic) 🥁❤️
+
+NOTE: Do not forget to unmute the player below to hear the music
+
+https://user-images.githubusercontent.com/56325539/136664883-6fd808db-9a0f-4e5d-b56c-e9c086ede4b3.mp4
+
+***
+
 ### Model Stats
 ```
 Model trained on 70951 Pitches-Drums pairs from clean_midi/LAKH MIDI Datasets
