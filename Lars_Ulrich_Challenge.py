@@ -36,7 +36,6 @@ get_ipython().system('git clone https://github.com/Tegridy-Code/Lars-Ulrich-Chal
     
 get_ipython().system('pip install torch')
 get_ipython().system('pip install tqdm')
-get_ipython().system('pip install matplotlib')
 
 
 # ## Import all needed modules
@@ -81,7 +80,6 @@ print('Project Los Angeles')
 print('Tegridy Code 2021')
 
 source_MIDI_file = 'Nothing Else Matters.mid'
-number_of_drums_per_chord = 3 # drums pitches per chord/note
 pass_through_MIDI = True # Pass-through or not all MIDI events
 
 # print('Loading MIDI file...')
@@ -144,7 +142,7 @@ for i in tqdm(range(len(src_pitches))):
     final_song.extend(mel_crd_f[i])
     
     if idx != -1:
-        for d in drums[idx][:number_of_drums_per_chord]:
+        for d in drums[idx]:
             # if d < 40:
             drum = [['note', mel_crd_f[i][0][1], mel_crd_f[i][0][2], 9, d, 100 ]]
             final_song.extend(drum)
@@ -239,7 +237,6 @@ print('Project Los Angeles')
 print('Tegridy Code 2021')
 
 source_MIDI_file = 'Nothing Else Matters.mid' # soutce MIDI file
-number_of_drums_per_chord = -1 # drums pitches per chord/note
 memory_tokens = 64 # recommended 32-64
 pass_through_MIDI = True # Pass-through or not all MIDI events
 
@@ -311,7 +308,7 @@ for i in tqdm(range(len(src_pitches))):
     out = rand_seq[0].cpu().numpy().tolist()
     out_cc = out[out.index(128, len(data)-1)+1:]
 
-    for d in out_cc[:number_of_drums_per_chord]:
+    for d in out_cc:
         drum = [['note', mel_crd_f[i][0][1], mel_crd_f[i][0][2], 9, d, 100 ]]
         final_song.extend(drum)
         drums_map.extend(drum)
