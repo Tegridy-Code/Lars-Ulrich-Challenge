@@ -6,16 +6,16 @@
 
 ***
 
+### 🎶 LUC on [SoundCloud](https://soundcloud.com/aleksandr-sigalov-61/sets/performance-drums-generation) 🎶
+
+***
+
 ### Take LUC quickly with the official Jupyter/Colab Notebook
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
 [colab-notebook]: <https://colab.research.google.com/github/Tegridy-Code/Lars-Ulrich-Challenge/blob/main/Lars_Ulrich_Challenge.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-
-***
-
-### 🎶 LUC on [SoundCloud](https://soundcloud.com/aleksandr-sigalov-61/sets/performance-drums-generation) 🎶
 
 ***
 
