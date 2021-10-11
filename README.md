@@ -15,6 +15,10 @@
 
 ***
 
+### 🎶 LUC on [SoundCloud](https://soundcloud.com/aleksandr-sigalov-61/sets/performance-drums-generation) 🎶
+
+***
+
 ### ❤️🥁 Performance Piano-Drums Output Sample (Algorithmic) 🥁❤️
 
 NOTE: Do not forget to unmute the player below to hear the music
