@@ -10,7 +10,7 @@
 
 ***
 
-### Take LUC quickly with the official Jupyter/Colab Notebook
+### Check LUC off your list quickly with the official Jupyter/Colab notebook
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
